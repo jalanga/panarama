@@ -4,5 +4,5 @@
 
 
 
-asta \[ast\]\(\#sdasdasdasdas\)
+asta [ast](#sdasdasdasdas)
 
