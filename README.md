@@ -1,8 +1,8 @@
 # Initial page
 
-## sdasdasdasd
+## How prices are calculated
 
 
 
-asta [ast](#sdasdasdasdas)
+asta [How prices are calculated](#how-prices-are-calculated)
 
