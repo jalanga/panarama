@@ -3,6 +3,66 @@
 ## How prices are calculated
 
 
-
+dasdas
+das
+da
+s
+das
+das
+d
+as
+das
+d
+as
+das
+d
+as
+das
+d
+as
+das
+da
+sd
+as
+da
+sd
+as
+das
+d
+as
+das
+das
+d
+as
+das
+d
+asd
+as
+da
+sd
+as
+da
+sd
+asd
+as
+da
+sd
+as
+da
+sd
+a
+das
+da
+sd
+as
+da
+sd
+as
+das
+d
+asd
+as
+d
+as
 asta [How prices are calculated](#how-prices-are-calculated)
 
