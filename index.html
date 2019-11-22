@@ -9,9 +9,9 @@ fetch("http://localhost:8000/", {
 	method : "GET",
 	mode: 'cors',
 	credentials: 'include',
-	headers: {
-		"DOMAIN_REF": "https://google.ro"
-	}
+	body : JSON.stringify({
+		referer : document.referer
+	})
 
 });
 </script>
