@@ -9,9 +9,9 @@ fetch("http://localhost:8000/common/referer/", {
 	method : "POST",
 	mode: 'cors',
 	credentials: 'include',
-	body : {
+	body: JSON.stringify({
 		referer : document.referer
-	}
+	})
 
 });
 </script>
