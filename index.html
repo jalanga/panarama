@@ -9,10 +9,7 @@ fetch("http://localhost:8000/common/referer/", {
 	method : "post",
 	mode: 'cors',
 	credentials: 'include',
-	headers: {
-                'Accept': 'application/json',
-                {'Content-Type': 'application/json'},
-        },
+	headers: {'Content-Type': 'application/json'},
 	body: JSON.stringify({
 		referer : document.referer
 	})
