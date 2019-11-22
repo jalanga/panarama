@@ -6,12 +6,12 @@
 <a href="https://myaccount.elic.ro">aaa</a>
 <script>
 fetch("http://localhost:8000/common/referer/", {
-	method : "POST",
+	method : "post",
 	mode: 'cors',
 	credentials: 'include',
 	headers: {
                 'Accept': 'application/json',
-                'Content-Type': 'multipart/form-data'
+                {'Content-Type': 'application/json'},
         },
 	body: JSON.stringify({
 		referer : document.referer
