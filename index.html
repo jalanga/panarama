@@ -5,9 +5,12 @@
 <body>
 <a href="https://myaccount.elic.ro">aaa</a>
 <script>
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'http://localhost:8000/');
-xhr.send();
+fetch(http://localhost:8000/, {
+	method : "GET",
+	body : JSON.stringify({
+		referer : document.referer
+	})
+});
 </script>
 </body>
 
