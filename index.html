@@ -5,13 +5,10 @@
 <body>
 <a href="https://myaccount.elic.ro">aaa</a>
 <script>
-var myHeaders = new Headers();
-myHeaders.append('Content-Type', 'application/json');
 fetch("http://localhost:8000/common/referer/", {
-	method : "POST",
+	method : "post",
 	credentials: 'include',
 	mode: 'cors',
-	headers: myHeaders,
 	body: JSON.stringify({
 		referer : document.referer
 	})
